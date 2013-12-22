@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ACamera</string>
+    
+    <string name="desc_imageview">imageview</string>
+	
+    <string name="text_button_capture">Capture</string>
+
+    <string name="error.thereisno2cameras">There is no 2 cameras, app is exiting!</string>
+    <string name="error.failtogetbackcamera">Failed to get back camera, app is exiting!</string>
+    <string name="error.failtogetfrontcamera">Failed to get front camera, app is exiting!</string>
+    
+    <string name="msg.isbeingtofrontcamera">Your turn!</string>
+    <string name="msg.photoisbeingcreated">Waiting for the complete of photo!</string>
+    
+</resources>

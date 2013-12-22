@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Main_Activity_Style"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/photo_preview_view_back"
+        android:contentDescription="@string/desc_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+     <ImageView
+        android:id="@+id/photo_preview_view_front"
+        android:contentDescription="@string/desc_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+</FrameLayout>

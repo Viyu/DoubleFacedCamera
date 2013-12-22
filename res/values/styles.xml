@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Application theme. -->
+    <style name="ACameraTheme" parent="@android:style/Theme.Light.NoTitleBar"></style>
+
+    <style name="Main_Activity_Style">
+        <item name="android:background">@drawable/background_activitys</item>
+    </style>
+
+    <style name="Capture_Button_Style" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/selector_icon_capture</item>
+    </style>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    style="@style/Main_Activity_Style"
+    >
+    <FrameLayout android:layout_width="wrap_content"
+    	 android:layout_height="match_parent"
+      	 >
+    <com.viyu.doublefacedcamera.CameraPreview 
+         android:layout_width="wrap_content"
+    	 android:layout_height="match_parent"
+      	 android:id="@+id/id_camera_preview"
+        />
+    
+      <ImageView
+        android:id="@+id/id_camera_preview_front"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:src="@drawable/icon_capture_pressed"
+		/>
+    
+    </FrameLayout>
+    
+    <ImageButton
+		 android:layout_width="wrap_content"
+    	 android:layout_height="wrap_content"
+      	 android:id="@+id/id_button_capture"       
+      	 style="@style/Capture_Button_Style"
+      	 android:contentDescription="@string/text_button_capture"
+      	 android:onClick="captureButtonClicked"
+        />
+</LinearLayout>
